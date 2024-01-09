@@ -19,16 +19,16 @@ The ShopBot at FabLab Lyngen is a [CNC router](https://en.wikipedia.org/wiki/CNC
 
 We use OpenBuilds Control to send jobs / G-Codes to the machine. Documentation of how to use this control software [here](https://docs.openbuilds.com/doku.php?id=docs:software:openbuilds-control).
 
-- Place material on the machine bed
-- Insert a milling bit in the spindle *(lefty loosey, righty tigtehy)*
-- Jog the machine to where you want X and Y zero to be and zero X and Y *(the buttons to left of the X and Y coordinates)*
-- Set the Z Zero height with the probe plate *(ctr+p to start the macro)*
-- Start the spindle by pressing the physical **RUN** button on the VFD *(the VFD is mounted on the wall)*
-- Adjust spindle speed with up and down buttons *(multiply with 60: 300 = 18000 RPM and 150 = 9000 RPM)*
-- Start the dust extraction
-- Open your job / G-Code
-- Start the job by pressing the play button
-- When the job is done stop the spindle by pressing the **OFF** button and stop the dust extraction
+1. Place/fixture your material on the machine bed
+2. Insert a milling bit in the spindle *(lefty loosey, righty tigtehy)*
+3. Jog the machine to where you want X and Y zero to be and zero X and Y *(the buttons to left of the X and Y coordinates)*
+4. Set the Z Zero height with the probe plate *(ctr+p to start the macro)*
+5. Start the spindle by pressing the physical **RUN** button on the VFD *(the VFD is mounted on the wall)*
+6. Adjust spindle speed with up and down buttons *(multiply with 60: 300 = 18000 RPM and 150 = 9000 RPM)*
+7. Start the dust extraction
+8. Open your job / G-Code
+9. Start the job by pressing the play button
+10. When the job is done stop the spindle by pressing the **OFF** button and stop the dust extraction
 
 ![](/img/instruction-graphics.png)
 
