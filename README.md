@@ -1,7 +1,7 @@
 # Fab-Lab-Lyngen-ShopBot
 *Documentation of the ShopBot GRBL conversion at Fab Lab Lyngen*
 
-The ShopBot at FabLab Lyngen runs [GRBL](https://github.com/gnea/grbl/wiki) on an Arduino Uno. You can use any kind of CAM software that makes normal G-Code to make jobs for the machine. A quick guide is available [here](https://docs.openbuilds.com/doku.php?id=docs:software:overview).
+The ShopBot at FabLab Lyngen is a [CNC router](https://en.wikipedia.org/wiki/CNC_router) controlled by [GRBL](https://github.com/gnea/grbl/wiki) on an Arduino Uno. You can use any kind of CAM software that makes normal G-Code to make jobs for the machine. A quick guide is available [here](https://docs.openbuilds.com/doku.php?id=docs:software:overview).
 
 **Suggested Free CAM software:**
 
@@ -13,6 +13,8 @@ The ShopBot at FabLab Lyngen runs [GRBL](https://github.com/gnea/grbl/wiki) on a
 **Suggested Paid CAM software**
 
 - [VCarve Pro Makerspace edition](https://www.vectric.com/products/makerspace)
+
+![](/img/lyngen-shopbot.jpg)
 
 ### Running a job
 
@@ -29,16 +31,18 @@ We use OpenBuilds Control to send jobs / G-Codes to the machine. Documentation o
 - Start the job by pressing the play button
 - When the job is done stop the spindle by pressing the **OFF** button and stop the dust extraction
 
+![](/img/instruction-graphics.png)
+
 ### Setting up
 
-- Plug the threephase power cable and single phase extension cord into the outlets by the entrance to the barn. *(the thee phase spindle cable shares a socket with the hay separator machine and the single phase extension cord for the dust extraction shares a socket with electric fence for the horses)*.
+- Plug the three-phase power cable and single-phase extension cord into the outlets by the entrance to the barn. *(the thee phase spindle cable shares a socket with the hay separator machine and the single phase extension cord for the dust extraction shares a socket with electric fence for the horses)*.
 - Turn on the ShopBot control cabinet with the switch mounted on the wall in between the VFD and the electrical enclosure.
 - Warm up the spindle by running it in the air for 5 minutes. *(Start the spindle by pressing the physical **RUN** button on the VFD, stop the spindle with the red the **OFF** button)*
 
 ### Differences between ShopBot3 and the GRBL control
 
-- X axis is along the gantry and Y axis is away from you (swapped)
-- You can now override feedrate in real-time
+- The X axis is along the gantry and the Y axis is away from you (swapped)
+- You can now override the feedrate in real-time
 - You can now instantly see a preview of your job/path before you start it
 - The X and Y homing switches are not wired *(pending)*
 
@@ -48,5 +52,5 @@ We use OpenBuilds Control to send jobs / G-Codes to the machine. Documentation o
  - Fix electronics for 24V induction homing switches
  - Adjust lower v-wheel positions on X axis *(along gantry axis)*
  - Clean v-wheels on X and Y axis
- - Add new brushes to dust skirt
+ - Add new brushes to the dust skirt
  - Surface the bed
