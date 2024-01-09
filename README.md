@@ -1,5 +1,4 @@
 # Fab-Lab-Lyngen-ShopBot
-*Documentation of the ShopBot GRBL conversion at Fab Lab Lyngen*
 
 The ShopBot at FabLab Lyngen is a [CNC router](https://en.wikipedia.org/wiki/CNC_router) controlled by [GRBL](https://github.com/gnea/grbl/wiki) on an Arduino Uno. You can use any kind of CAM software that makes normal G-Code to make jobs for the machine. A quick guide is available [here](https://docs.openbuilds.com/doku.php?id=docs:software:overview).
 
