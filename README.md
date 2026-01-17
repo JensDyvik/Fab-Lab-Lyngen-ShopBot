@@ -13,7 +13,7 @@ The ShopBot at FabLab Lyngen is a [CNC router](https://en.wikipedia.org/wiki/CNC
 
 - [VCarve Pro Makerspace edition](https://www.vectric.com/products/makerspace)
 
-![](/img/lyngen-shopbot.jpg)
+![shopb](/img/lyngen-shopbot.jpg)
 
 ### Running a job
 
@@ -30,13 +30,15 @@ We use OpenBuilds Control to send jobs / G-Codes to the machine. Documentation o
 9. Start the job by pressing the play button
 10. When the job is done stop the spindle by pressing the **OFF** button and stop the dust extraction
 
-![](/img/instruction-graphics.png)
+![overview](/img/instruction-graphics.png)
 
 ### Setting up
 
 - Plug the three-phase power cable and single-phase extension cord into the outlets by the entrance to the barn. *(the thee phase spindle cable shares a socket with the hay separator machine and the single phase extension cord for the dust extraction shares a socket with electric fence for the horses)*.
 - Turn on the ShopBot control cabinet with the switch mounted on the wall in between the VFD and the electrical enclosure.
 - Warm up the spindle by running it in the air for 5 minutes. *(Start the spindle by pressing the physical **RUN** button on the VFD, stop the spindle with the red the **OFF** button)*
+
+![box](./img/box.jpeg)
 
 ### Differences between ShopBot3 and the GRBL control
 
